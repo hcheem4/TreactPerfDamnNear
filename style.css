@@ -967,22 +967,22 @@ footer {
   }
 
   .header__description--title {
-    font-size: 30px;  
+    font-size: 30px;
   }
 
   .header__description--para {
     margin: 20px 0;
   }
 
- .header__bottom-pic--wrapper {
-  padding: 0;
- }
+  .header__bottom-pic--wrapper {
+    padding: 0;
+  }
   .header__img--wrapper {
     display: none;
   }
 
   .feature {
-    width: calc(100%/2);
+    width: calc(100% / 2);
   }
 
   .plans {
@@ -996,17 +996,25 @@ footer {
   }
 }
 
-
 @media (max-width: 570px) {
+  nav {
+    padding: 10px;
+  }
+
+  .padding__div {
+    padding: 0;
+  }
+
   .header__description--wrapper {
     font-size: 20px;
     width: auto;
+    padding: 12px;
   }
 
   .input__btn {
     right: auto;
     top: auto;
-    bottom:auto;
+    bottom: auto;
     width: 100%;
     height: 100%;
     padding: 16px 0;
@@ -1014,6 +1022,10 @@ footer {
 
   .header__description--subtitle {
     padding-top: 30px;
+  }
+
+  #features {
+    padding: 12px;
   }
 
   .features__title {
@@ -1056,6 +1068,11 @@ footer {
     margin: 64px 25px 0 25px;
     width: auto;
     text-align: center;
+    align-items: center;
+  }
+
+  #quality {
+    padding: 12px;
   }
 
   .quality__subtitle {
@@ -1077,5 +1094,85 @@ footer {
 
   .quality__btn {
     text-align: center;
+  }
+
+  #steps {
+    padding: 12px;
+  }
+
+  .steps__row {
+    flex-direction: column;
+  }
+
+  .steps__img--wrapper {
+    width: auto;
+  }
+
+  .steps__description--wrapper-margin {
+    width: auto;
+  }
+
+  .steps__subtitle {
+    text-align: center;
+  }
+
+  .steps__title {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .steps__link {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .steps__text {
+    margin: 12px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text__para {
+    text-align: center;
+  }
+
+  #pricing {
+    padding: 12px;
+  }
+
+  .pricing__title {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.9px;
+  }
+
+  .pricing__para {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .links {
+    justify-content: center;
+  }
+
+  .link {
+    width: calc(100% / 4);
+  }
+
+  .links .link:last-child {
+    margin-top: 48px;
+  }
+
+  .footer__info {
+    flex-direction: column;
+  }
+
+  .copyright {
+    margin-top: 32px;
+  }
+
+  .social__links {
+    margin-top: 32px;
   }
 }
